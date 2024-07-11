@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+body {
+min-height: 100vh;
+    background: url('images/background.jpg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    position:relative;
+    width: 400px;
+    height:100px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(30px);
+    border:2px solid rgba(255,255,255,.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin:90px auto;
+    transition: height .6s ease;
+}
+
+.search {
+    position:relative;
+    width: 100%;
+    height:55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search i{
+    position: absolute;
+    left:10px;
+    font-size: 28px;
+    color:#fff;
+}
+.search input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding:0 48px 0 42px;
+}
+.search input::placeholder{
+    color:#fff;
+    text-transform: capitalize;
+}
+.search button {
+    position: absolute;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 50%;
+    right:0;
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+    padding:0 40px 0 5px;
+}
+.search button img{
+    width:20px;
+    margin-top: 5px;
+}
+
+.weather {
+    text-align: center;
+    color: white;
+}
+.weatherpng{
+    width:60%;
+    
+}
+.weather h1{
+    position: relative;
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col i{
+    font-size: 50px;
+    margin-right: 10px;
+}
+p{
+    font-size: 18px;
+}
+.humidity, .wind{
+    font-size: 30px;
+    margin-top: -6px;
+    font-weight: 500;
+}
+.weather{
+    display:none;
+}
+.error {
+    position: absolute;
+    text-align: center;
+    top:0;
+    left:0;
+    width:100%;
+    margin-top: 110px;
+    display: none;
+}
+.error img{
+    width:65%;
+}
+.error p{
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 500;
+    color:#fff;
+}

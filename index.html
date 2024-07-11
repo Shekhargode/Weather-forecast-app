@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <i class="bx bxs-map"></i>
+            <input type="text" placeholder="Enter City Name" spellcheck="false">
+            <button class="bx bx-search"></button>
+        </div>
+        
+        <div class="weather" id="weather">
+            <img src="images/snow.png" class="weatherpng">
+            <h1><span class="temp">37</span><sup>o</sup>C</h1>
+            <h2 class="city">Rajahmundry</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="bx bx-water"></i>
+                    <div>
+                        <p><span class="humidity">20</span> %</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="bx bx-wind"></i>
+                    <div>
+                        <p><span class="wind">90</span> km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="error" id="error">
+            <img src="images/404.png">
+            <p>Oops!...Location not found!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
