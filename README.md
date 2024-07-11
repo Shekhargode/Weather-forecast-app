@@ -31,3 +31,6 @@ This Weather Forecast application allows users to get real-time weather informat
 Replace the `apiKey` variable in the `script.js` file with your own OpenWeatherMap API key:
 ```javascript
 const apiKey = "YOUR_API_KEY";
+ ```
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.You can also add or modify the content as needed to better fit your project.
+https://shekhargode.github.io/Weather-forecast-app/
