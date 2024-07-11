@@ -25,6 +25,7 @@ This Weather Forecast application allows users to get real-time weather informat
 
 ## Screenshots
 
+![image](https://github.com/Shekhargode/Weather-forecast-app/assets/96515282/1da8b430-75b0-40bb-b3c9-e0701fc7ac44)
 
 ## API Key
 Replace the `apiKey` variable in the `script.js` file with your own OpenWeatherMap API key:
